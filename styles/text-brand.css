@@ -1,9 +1,37 @@
 @font-face {
     font-family: "paragraph-font";
-    src: url("fonts/ProductSans-Light.ttf");
+    src: url("https://shishantg87.github.io/web115/fonts/ProductSans-Light.ttf");
     
 }
 
+@font-face {
+    font-family: "header-font";
+    src: url("https://shishantg87.github.io/web115/fonts/ProductSans-BoldItalic.ttf")
+}
 p {
     font-family: "paragraph-font";
+}
+
+.top-left-h1 {
+    font-family: "header-font";
+    font-size:30px
+    
+}
+
+.container {
+    margin-top: -10px;
+    margin-left: 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
+    
+}
+
+.p-header {
+    margin-top: -10px;
+    font-family: "paragraph-font";
+    font-size:10px;
+
 }
