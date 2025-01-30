@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "paragraph-font";
+    src: url("fonts/ProductSans-Light.ttf");
+    
+}
+
+p {
+    font-family: "paragraph-font";
+}
