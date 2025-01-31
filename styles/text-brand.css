@@ -8,13 +8,13 @@
     font-family: "header-font";
     src: url("https://shishantg87.github.io/web115/fonts/ProductSans-BoldItalic.ttf")
 }
-p {
+p,ul {
     font-family: "paragraph-font";
 }
 
 .top-left-h1 {
     font-family: "header-font";
-    font-size:30px
+    font-size:20px
     
 }
 
@@ -30,8 +30,53 @@ p {
 }
 
 .p-header {
-    margin-top: -10px;
+    
     font-family: "paragraph-font";
-    font-size:10px;
+    font-size:9px;
+}
 
+.logo {
+    
+    margin: auto;
+    position: center;
+    margin-top: -40px;
+}
+
+.p-box {
+    font-family: "header-font";
+    display: flex;
+    margin-top: -150px;
+    margin-left: 50px;
+}
+
+.glow {
+    text-shadow: 0 0 0px rgba(0, 0, 0, 0.8), 0 0 3px rgba(255, 255, 255, 0.8), 0 0 2px rgba(255, 255, 255, 0.8);
+    color: brown;
+}
+
+.hover-text {
+    margin-top: -60px;
+    margin-right:-800px;
+    transition: transform 0.3s ease, font-size 0.3s ease; 
+}
+.text:hover {
+    text-shadow: 0 10px 5px rgba(0, 0, 0, 0.8), 0 0 5px rgba(255, 255, 255, 0.8), 0 0 1px rgba(255, 255, 255, 0.8);
+    transform: scale(1);
+    font-size: 24px;
+}
+
+.logo-h {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.logo-h:hover {
+    transform: scale(1.1) rotate(10deg); 
+    filter: brightness(1.2); 
+}
+
+
+.list-container {
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
 }
