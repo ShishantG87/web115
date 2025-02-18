@@ -17,6 +17,9 @@ p,ul {
     font-size:20px
     
 }
+h1, h2{
+    font-family: "header-font";
+}
 
 .container {
     margin-top: 10px;
