@@ -17,14 +17,10 @@ html, body {
 
   a {
     color:  rgb(255, 255, 255);
+    text-decoration: none;
   }
 
-  a:visited{
 
-    color: brown;
-
-
-  }
 
   a:hover, a:active {
     color: #ffffff;
