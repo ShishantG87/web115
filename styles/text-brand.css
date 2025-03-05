@@ -91,3 +91,10 @@ label, input{
 input[type='submit'], legend, .asking{
     font-family: 'header-font';
 }
+
+.quote{
+    font-family: 'paragraph-font';
+    margin-top: -20px;
+    font-size:19px;
+}
+
