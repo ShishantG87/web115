@@ -83,3 +83,11 @@ h1, h2{
     display: flex;
     flex-direction: column;
 }
+
+label, input{
+    font-family: 'paragraph-font';
+}
+
+input[type='submit'], legend, .asking{
+    font-family: 'header-font';
+}

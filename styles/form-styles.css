@@ -1,0 +1,104 @@
+form{
+  text-align: left;
+  max-width: 1000px;;
+  min-height: 500px;
+  display:flex;
+  flex-direction: column;
+  background-color: brown;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 20px;
+  box-shadow: 0 2px 3px 2px black;
+  
+}
+
+fieldset{
+  padding-left:50px;
+  
+  border: none;
+  
+}
+label{
+  font-size:30px;
+  display: block;
+  padding-top: 1em;
+  padding-bottom: 30px;
+  margin: 0.5rem 0;
+}
+
+input{
+  width: 30%;
+  height: 25px;
+  margin-left: 30px;
+  border-radius: 6px;
+  border: none; 
+}
+.info{
+  margin-right:700px;
+}
+
+input[type = 'submit']{
+  padding-bottom: 30px;
+  margin: 1em auto;
+  font-size: 25px;
+  background-color: rgb(73, 66, 66);
+  color:white;
+  border: 2px solid black;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+legend{
+  font-size:30px;
+}
+
+.radio-boxes{
+  max-width: 120px;
+  font-size: 20px;
+  padding-right:0;
+  margin-bottom:-30px;
+  cursor: pointer;
+}
+
+input[type='radio']{
+  width: unset;
+  margin: 10px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+#dropdown{
+  margin: 1em auto;
+  width: 300px;
+  margin-bottom:150px;
+}
+
+input[type='checkbox']{
+  display: inline-block;
+  width: unset;
+  height:15px;
+}
+
+.check{
+  font-size:20px;
+  margin-bottom: -30px;
+  cursor: pointer;
+  max-width: 270px;
+  
+}
+
+textarea{
+ border-radius: 6px;
+ width: 450px;
+ min-height: 100px;
+  
+}
+
+textarea::placeholder{
+  color:brown;
+
+}
+
+.text-area{
+  margin-top:90px;
+}

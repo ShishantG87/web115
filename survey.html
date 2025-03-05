@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Shishant Bohora's Sneaky Bear - Survey</title>
+    <link rel="stylesheet" href="styles/default.css" />
+    <link rel="stylesheet" href="styles/text-brand.css" />
+    <link rel="stylesheet" href="styles/form-styles.css" />
+    <script
+      src="https://lint.page/kit/67ff88.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header></header>
+
+    <main>
+      <h2>Survey Form</h2>
+
+      <form id="survey-form">
+        <fieldset>
+          <label for="name"
+            class="asking">Name:
+            <input
+              class="info"
+              id="name"
+              placeholder="Enter your name"
+              required
+            />
+          </label>
+          <label for="email"
+          class="asking">Email:
+            <input
+              class="info"
+              id="email"
+              type="email"
+              required
+              placeholder="Enter your Email"
+            />
+          </label>
+          <label for="number"
+          class="asking">Age:
+            <input
+              class="info"
+              id="number"
+              type="number"
+              min="10"
+              max="120"
+              placeholder="10 to 120 years"
+            />
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Would you recommend our service?</legend>
+          <label class="radio-boxes">
+            <input type="radio" value="yes" name="recommend" checked/>Definitely
+          </label>
+          <label class="radio-boxes">
+            <input type="radio" value="yes" name="recommend" />Maybe
+          </label>
+          <label class="radio-boxes">
+            <input type="radio" value="yes" name="recommend" />Never
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>What is your favorite product?</legend>
+          <select id="dropdown">
+            <option>Select an option</option>
+            <option>Jet-pack</option>
+            <option>Time-Machine</option>
+            <option>Immortality Potion</option>
+            <option>Hoverboards</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            What would you like to see improved?
+            <em> (Check all that apply)</em>
+          </legend>
+          <label class = 'check'>
+            <input type="checkbox" value="o-1" />
+            Jet-pack Performance</label
+          ><label class = 'check'>
+            <input type="checkbox" value="o-2" />
+            Prices</label
+          ><label class = 'check'>
+            <input type="checkbox" value="o-3" />
+            Customer Support</label
+          ><label class = 'check'> <input type="checkbox" value="o-4" /> Refunds</label>
+        </fieldset>
+
+        <fieldset class="text-area">
+          <legend>Any comments or suggestions?</legend>
+
+          <textarea cols="30" rows="4" placeholder="Enter your text here..."></textarea>
+        </fieldset>
+
+        <input type="submit" id="submit" />
+      </form>
+    </main>
+    <footer></footer>
+    <script src="scripts/include-components.js"></script>
+  </body>
+</html>
