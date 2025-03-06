@@ -29,12 +29,11 @@ label{
 input{
   width: 30%;
   height: 25px;
-  margin-left: 30px;
   border-radius: 6px;
   border: none; 
 }
 .info{
-  margin-right:700px;
+  margin-right:600px;
 }
 
 input[type = 'submit']{
@@ -56,7 +55,8 @@ legend{
   max-width: 120px;
   font-size: 20px;
   padding-right:0;
-  margin-bottom:-30px;
+  margin-top: 0;
+  
   cursor: pointer;
 }
 
