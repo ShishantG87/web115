@@ -29,7 +29,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     htmlPrint.push(`<p>${b}. ${randomWord} ${result}</p>`);
                  }
                  main.innerHTML = htmlPrint.join('');
-               } 
+               } else {
+                alert('Number cant be over 126')
+               }
            }
         console.log(newInfo);
     });
