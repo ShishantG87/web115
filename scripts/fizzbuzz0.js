@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
                  }
                  main.innerHTML = htmlPrint.join('');
                } else {
-                alert('Number cant be over 126')
+                alert('Number cant be over 126');
                }
            }
         console.log(newInfo);
