@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         info.forEach((i) => {
             newInfo.push(i.value);
         });
-        document.getElementById('greeting').textContent = `Welcome to Bohora Productions ${newInfo[0]}.${newInfo[1]} ${newInfo[2]}`;
+        document.getElementById('greeting').textContent = `Welcome to Bohora Productions ${newInfo[0]} .${newInfo[1]} ${newInfo[2]}`;
         if (!isNaN(newInfo[0])){
             alert('Do not put a number as a name.');
         }
