@@ -19,14 +19,17 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('Do not put a number as a name.');
         }
         else {
+            const checkDivision = (iterator, multiple) => iterator % multiple === 0;
+            const fizz = 3;
+            const buzz = 5;
                 for (let b = 1; b <= 140; b++) {
                     let randomWord = invention[Math.floor(Math.random() * invention.length)];
                     let li = document.createElement('li');
-                    if (b % 15 === 0){
+                    if (checkDivision(b,(fizz * buzz))) {
                         li.textContent = `Amazing Product!`;
-                    } else if (b % 5 ===0) {
+                    } else if (checkDivision(b,buzz)) {
                         li.textContent = `Amazing!`;
-                    } else if (b% 3 === 0) {
+                    } else if (checkDivision(b,fizz)) {
                         li.textContent = `Product!`;
                     }
                     else {
