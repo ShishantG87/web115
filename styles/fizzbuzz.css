@@ -17,11 +17,7 @@ fieldset{
     
 }
 
-button{
-    width: 100px;
-    border-radius: 6px;
-    margin:1em auto;
-}
+
 #greeting {
     font-size:23px;
     

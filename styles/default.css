@@ -110,3 +110,8 @@ img {
 .fizzbuzz a:hover{
   background-color: rgba(226, 143, 143, 0.459);
 }
+button{
+  width: 100px;
+  border-radius: 6px;
+  margin:1em auto;
+}
