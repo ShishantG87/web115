@@ -8,7 +8,10 @@
     font-family: "header-font";
     src: url("https://shishantg87.github.io/web115/fonts/ProductSans-BoldItalic.ttf")
 }
-p,ul {
+.fizzbuzz button {
+    font-family: 'paragraph-font';
+  }
+p,ul, #fizz-list {
     font-family: "paragraph-font";
 }
 
@@ -16,6 +19,9 @@ p,ul {
     font-family: "header-font";
     font-size:20px
     
+}
+#fizz-list{
+    margin-left:30px;
 }
 h1, h2, h3{
     font-family: "header-font";
@@ -53,10 +59,15 @@ h1, h2, h3{
 }
 
 .glow {
-    text-shadow: 0 0 0px rgba(0, 0, 0, 0.8), 0 0 3px rgba(255, 255, 255, 0.8), 0 0 2px rgba(255, 255, 255, 0.8);
+    text-shadow:  3px 0 10px rgba(255, 247, 254), 0 0 2px rgba(255, 255, 255, 0.8);
     color: brown;
 }
 
+.head-quote{
+    text-shadow:  3px 0 10px rgba(255, 247, 254), 0 0 2px rgba(255, 255, 255, 0.8);
+    color: brown;
+    font-size: 30px;
+}
 .hover-text {
     margin-top: -60px;
     margin-right:-1000px;

@@ -71,3 +71,42 @@ img {
 }
 
 
+.fizzbuzz button {
+  background-color: brown;
+  color: white;
+  padding: 5px 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 0px;
+  font-size: 15px;
+}
+.fizzbuzz {
+  display: inline-block;
+  font-size: 15px;
+}
+.fizzbuzz a {
+  display: block;
+  padding: 5px 15px;
+}
+.fizzbuzz .fizz-options{
+  display: none;
+  position:absolute;
+  background-color: rgb(134, 52, 52);
+  min-width: 100px;
+  box-shadow: 2px;
+  margin-top: -13px;
+  
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+
+.fizzbuzz:hover .fizz-options{
+  display: block;
+}
+
+.fizzbuzz:hover button{
+  background-color: rgba(206, 19, 19, 0.699);
+}
+
+.fizzbuzz a:hover{
+  background-color: rgba(226, 143, 143, 0.459);
+}
