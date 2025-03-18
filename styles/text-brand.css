@@ -11,11 +11,11 @@
 .fizzbuzz button {
     font-family: 'paragraph-font';
   }
-p,ul, #fizz-list {
+p,ul, #fizz-list,a{
     font-family: "paragraph-font";
 }
 
-.top-left-h1 {
+.top-left-h1,summary {
     font-family: "header-font";
     font-size:20px
     
@@ -59,13 +59,13 @@ h1, h2, h3{
 }
 
 .glow {
-    text-shadow:  3px 0 10px rgba(255, 247, 254), 0 0 2px rgba(255, 255, 255, 0.8);
-    color: brown;
+    
+    color: #FC8D8D;
 }
 
 .head-quote{
-    text-shadow:  3px 0 10px rgba(255, 247, 254), 0 0 2px rgba(255, 255, 255, 0.8);
-    color: brown;
+    
+    color: #FC8D8D;
     font-size: 30px;
 }
 .hover-text {
