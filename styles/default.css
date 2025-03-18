@@ -38,7 +38,7 @@ main {
 
 .none{
   font-family: "paragraph-font";
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-decoration: none;
  
 }
@@ -51,7 +51,7 @@ main {
 }
 a:not(.none):not(.fizz-options a) {
   
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-decoration: none;
  
   padding: 0 7px 0 7px;
@@ -119,7 +119,7 @@ img {
 
 .fizzbuzz button {
   background-color: #FC8D8D;
-  color: white;
+  color: rgb(0, 0, 0);
  
   cursor: pointer;
   border: none;
