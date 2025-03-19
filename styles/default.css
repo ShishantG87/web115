@@ -16,9 +16,6 @@ html, body {
   border-radius: 6px;
 }
 
-.top-links a{
-
-}
 body {
   display: flex;
   flex-direction: column;
@@ -58,7 +55,7 @@ a:not(.none):not(.fizz-options a) {
   background-color: #FC8D8D;
   border-radius: 6px;
 }
-h2{
+h2, h3{
   text-align: center;
 }
 
@@ -69,11 +66,8 @@ a:active {
 
 footer {
   margin-top: auto;
- 
-  
   color: white;
   text-align: center;
- 
 }
 
 .contract-container{
