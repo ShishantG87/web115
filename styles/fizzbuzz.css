@@ -40,7 +40,21 @@ label{
     display: flex;
     max-width: 500px;
     flex-direction: column;
-    border: 5px dotted brown;
+    border: 5px dotted #FC8D8D;
     border-radius: 12px;
     margin: 1em auto;
+    flex-wrap: wrap;
+}
+
+#print-nums p {
+    text-align: center;
+    
+    position: relative;
+   
+}
+#print-nums  li {
+    text-align: center;
+    
+    position: relative;
+    left: -20px;
 }
