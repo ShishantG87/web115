@@ -35,8 +35,8 @@ main {
 
 .none{
   font-family: "paragraph-font";
-  color: rgb(255, 255, 255);
-  text-decoration: none;
+  color: #FC8D8D;
+  text-decoration: underline;
   border-radius: 0;
   background: none;
  
