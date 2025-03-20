@@ -37,6 +37,8 @@ main {
   font-family: "paragraph-font";
   color: rgb(255, 255, 255);
   text-decoration: none;
+  border-radius: 0;
+  background: none;
  
 }
 
@@ -46,7 +48,7 @@ main {
   flex-wrap:wrap;
   gap:25px;
 }
-a:not(.none):not(.fizz-options a) {
+a {
   
   color: rgb(0, 0, 0);
   text-decoration: none;
@@ -131,6 +133,7 @@ img {
   font-family: "paragraph-font";
   color: rgb(0, 0, 0);
   text-decoration: none;
+  border-radius: 0;
 }
 .fizzbuzz .fizz-options{
 
