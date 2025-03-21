@@ -164,3 +164,21 @@ button{
   border-radius: 6px;
   margin:1em auto;
 }
+
+.complete {
+  position: absolute;
+  right: 20%;
+  color: #FC8D8D
+}
+
+.finished {
+  position: absolute;
+  right: 20%;
+  color: rgb(109, 248, 109)
+}
+
+
+.certification  {
+  color: rgb(138, 237, 255)
+  
+}
