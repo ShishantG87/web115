@@ -102,3 +102,9 @@ textarea::placeholder{
 .text-area{
   margin-top:90px;
 }
+
+.invisible {
+  display: none;
+  padding:0;
+  margin: 0;
+}
