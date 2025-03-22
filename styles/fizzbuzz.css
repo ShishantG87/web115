@@ -49,11 +49,8 @@ label{
 #print-nums p {
     right: -20%;
     position: relative;
-   
 }
-#print-nums  li {
-   
-    
+#print-nums  li {  
     position: relative;
-    left: -20px;
+    left: 25.5%;
 }
