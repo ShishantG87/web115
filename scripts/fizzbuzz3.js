@@ -31,18 +31,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 let randomWord = invention[Math.floor(Math.random() * invention.length)];
                 let li = document.createElement('li');
                 let liString = [];
-                if (checkDivision(b, bang)) {
-                    liString.push(`BANG!`);
+                if (checkDivision(b, fizz)) {
+                    liString.push(`Amazing`);
                 }
                 if (checkDivision(b, buzz)) {
-                    liString.push(`Amazing!`);
+                    liString.push(`Product`);
                 }
-                if (checkDivision(b, fizz)) {
-                    liString.push(`Product!`);
+                if (checkDivision(b, bang)) {
+                    liString.push(`Bang!`);
                 } else if (liString.length === 0) {
                     liString.push(` ${randomWord}`);
                 }
-                li.textContent = liString.join(', ');
+                li.textContent = liString.join(' ');
                 ol.appendChild(li);
                 console.log(`Appended: ${b}. ${randomWord}`);
             }
