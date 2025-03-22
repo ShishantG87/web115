@@ -38,7 +38,7 @@ label{
 
 #print-nums{
     display: flex;
-    max-width: 500px;
+    max-width: 600px;
     flex-direction: column;
     border: 5px dotted #FC8D8D;
     border-radius: 12px;
@@ -47,13 +47,12 @@ label{
 }
 
 #print-nums p {
-    text-align: center;
-    
+    right: -20%;
     position: relative;
    
 }
 #print-nums  li {
-    text-align: center;
+   
     
     position: relative;
     left: -20px;
